@@ -1,0 +1,37 @@
+.pixels {
+    font-size: 24px;
+}
+
+.em {
+    font-size: 16px;
+}
+
+.para-one {
+    font-size: 1.6em;
+}
+
+.rem {
+    font-size: 20px;
+}
+
+.para-three {
+    font-size: 2rem;
+}
+
+.percent {
+    width: 400px;
+    height: 400px;
+    border: 3px solid black;
+}
+
+.box-one {
+    width: 25%;
+    height: 100px;
+    border: 2px solid navy;
+}
+
+.box-two {
+    width: 50%;
+    height: 70%;
+    border: 2px solid maroon;
+}

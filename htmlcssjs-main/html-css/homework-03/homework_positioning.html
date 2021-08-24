@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Gopal - Positioning</title>
+        <link rel="stylesheet" href="homepage_positioning.css">
+    </head>
+<body>
+    <div class="static-pos">
+        <h1>Static positioning</h1>
+    
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto dolorem eligendi excepturi ipsa iste laborum
+            molestiae obcaecati sint sunt totam. Deserunt distinctio dolore minima modi molestias ratione tenetur vero, voluptate.</p>
+    
+        <p class="positioned">
+            This behaves like any other block element and has been positioned static. Makes no major difference
+    
+        </p>
+    
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolorem magnam quo repellendus ut. Assumenda aut
+            culpa debitis, hic illo ipsa iusto necessitatibus officia optio, sint suscipit unde veritatis vero!</p>
+    
+        <p>
+            inline elements <span>like this one</span> and <span>this one</span> sit on the same line as one another, and
+            adjacent text nodes, if there is space on the same line. Overflowing inline elements <span>wrap onto a new line
+            if possible — like this one containing text</span>,
+        </p>
+    </div>
+
+    <div class="rel-pos">
+        <h1>Relative positioning</h1>
+    
+        <p class="dummy-relative-pos">This element has been positioned relative but with no other properties set on it, hence
+        it behaves like a statically positioned element</p>
+    
+        <!-- The top and left properties that are set will push the element 30px from the top and left of its original position in a static layout.
+        -->
+        <p class="relative-pos">
+            This element has been positioned relative with a some values set for top and left properties.
+        </p>
+    
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolorem magnam quo repellendus ut. Assumenda aut
+            culpa debitis, hic illo ipsa iusto necessitatibus officia optio, sint suscipit unde veritatis vero!</p>
+    
+        <p>
+            inline elements <span>like this one</span> and <span>this one</span> sit on the same line as one another, and
+            adjacent text nodes, if there is space on the same line. Overflowing inline elements <span>wrap onto a new line
+            if possible — like this one containing text</span>,
+        </p>
+    </div>
+
+    <div class="abs-pos" style="position: relative;">
+        <h1>Absolute positioning</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus adipisci animi aspernatur corporis culpa,
+            cupiditate, facere iure nihil quae quia sit tempora ut veritatis. Dignissimos eum ex libero nam nisi!</p>
+    
+        <p class="absolute-pos">
+            This element has been positioned absolute
+        </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolorem magnam quo repellendus ut. Assumenda aut
+            culpa debitis, hic illo ipsa iusto necessitatibus officia optio, sint suscipit unde veritatis vero!</p>
+    
+        <p>
+            inline elements <span>like this one</span> and <span>this one</span> sit on the same line as one another, and
+            adjacent text nodes, if there is space on the same line. Overflowing inline elements <span>wrap onto a new line
+            if possible — like this one containing text</span>,
+        </p>
+    </div>
+
+    <div>
+        <h1 class="fixed-pos">Fixed positioning</h1>
+    </div>
+</body>
+</html>

@@ -1,0 +1,59 @@
+body {
+    color: red;
+}
+
+h1 {
+    border: 2px solid black;
+}
+
+h2:first-of-type {
+    border: 3px dotted darkgreen;
+}
+
+h2:last-of-type {
+    color: black;
+    background-color: yellow;;
+}
+
+p {
+    font-size: 10px;
+}
+
+p:first-of-type {
+    font-size: 16px;
+    color: orange;
+}
+
+p:last-of-type {
+    font-size: 19px;
+    background-color: yellow;
+    color: red;
+}
+
+h1:first-child {
+    background-color: green;
+}
+
+h1:last-child {
+    background-color:lightblue;
+}
+
+h1.highlight {
+    border: 4px dashed navy;
+}
+
+body h1 {
+    font-style: italic;
+}
+
+body > h1 {
+    font-family: "Courier New";
+    color: magenta;
+}
+a {
+    color: black;
+}
+
+a:hover {
+    color: magenta;
+}

@@ -1,0 +1,20 @@
+h3 {
+    color: royalblue;
+    font-size: 2rem;
+}
+
+@media print {
+    h3 {
+        color:saddlebrown;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h3 {
+        color:red;
+        font-size: 4rem;
+    }
+}
+
+}

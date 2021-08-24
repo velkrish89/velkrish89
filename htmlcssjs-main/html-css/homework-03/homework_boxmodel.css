@@ -1,0 +1,34 @@
+
+.box {
+    height: 150px;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 5px solid black;
+}
+
+.border-box {
+    box-sizing: border-box;
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+    padding: 10px;
+    border: 5px solid black;
+}
+
+.container {
+    border: 5px solid red;
+}
+
+.container .one, .container .two {
+    border: 5px solid navy;
+    background-color: grey;;
+}
+
+.container .one {
+    margin-bottom: 50px;
+}
+
+.container .two {
+    margin-top: 30px;
+}

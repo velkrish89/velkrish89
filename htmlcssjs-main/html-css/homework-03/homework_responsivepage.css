@@ -1,0 +1,31 @@
+h1 {
+    font-size: 1.5rem;
+    padding: 10px;
+    margin: 10px;
+    color: #005511
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.column {
+    background-color: pink;
+    padding: 10px;
+    margin: 10px;
+}
+
+@media(max-width: 900px) {
+    .column {
+        width: 500px;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    h1 {
+        font-size: 4rem;
+        color: red;
+    }
+}

@@ -1,0 +1,45 @@
+.first-element, .second-element {
+    color: red;
+}
+
+.example .first-element {
+    color: blue;
+}
+
+.example-2 h1 {
+    color: yellow;
+
+}
+
+.example-2 h1 {
+    color: green;
+
+}
+
+.example-three h3 {
+    font-size: 18px;
+    color: maroon;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.example-three .big {
+    font-size: 25px;
+}
+
+.example-three .dark {
+    color: darkmagenta;
+}
+
+.example-4 h4 {
+    color: orange;
+    font-size: 19px !important;
+}
+
+.example-4 .imp-example {
+    font-size: 32px;
+}
+
+.inherit {
+    border: 2px solid navy;
+    color: magenta;
+}

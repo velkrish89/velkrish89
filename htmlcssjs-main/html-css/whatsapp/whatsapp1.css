@@ -1,0 +1,221 @@
+.main-container {
+    display: flex;
+   flex-direction: column;
+
+
+}
+
+.headers {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    background-color: #d9d9d9;
+   margin-top: 0%;
+
+}
+
+.left-header {
+    flex: 2;
+    
+    display: flex;
+    margin-top: 5px;
+}
+
+.myprofile {
+    flex: 3;
+    align-items: center;
+}
+
+.myprofile-img {
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+
+}
+
+.myprofile-img img {
+    border-radius: 50%;
+}
+
+.messages {
+    flex: 2;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icons {
+    height: 30px;
+    width: 30px;
+    margin: auto;
+    
+}
+
+.icons .img {
+    border-radius: 50%;
+}
+
+
+
+.right-header {
+    flex: 4;
+    border: 1px solid whitesmoke;
+}
+
+.contents {
+    display: flex;
+    
+}
+
+.contacts-container {
+    flex: 2;
+    border: 1px solid whitesmoke    ;
+    margin: 0 5px 5px 0;
+}
+
+.chat-container {
+    flex: 4;
+    border: 1px solid whitesmoke;
+    background-color: #e5ddd5;
+    margin: 0 5px 5px 0;
+    background-image: url("whatsappBG.jpg");
+}
+
+.container {
+    box-sizing: border-box;
+    width: 100%;
+    height: 80px;
+    border: 1px solid whitesmoke;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    align-items: center;
+    
+}
+
+.notify-container {
+    box-sizing: border-box;
+    width: 100%;
+    height: 80px;
+    border: 1px solid whitesmoke;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    align-items: center;
+    background-color: #aadaff;
+}
+
+.notification {
+    flex: 1;
+    margin-left: 5px;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   align-items: center;
+}
+
+.notify-img {
+    height: 50px;
+    width: 50px;
+}
+
+.notify-img img {
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.notify-msg {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.search-container {
+    box-sizing: border-box;
+    width: 100%;
+    height: 60px;
+    border: 1px solid whitesmoke;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    align-items: center;
+    background-color: #d9d9d9;
+}
+
+.search {
+    flex: 1;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 30px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+}
+
+.search span {
+   flex: 6;
+    
+}
+
+.search span input{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border: 1px solid whitesmoke;
+    text-align: center;
+     
+ }
+
+
+
+.first {
+    flex: 1;
+    margin-left: 5px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+img {
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+}
+.content-text {
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.first-text {
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.top-text {
+    flex: 4;
+    margin-left: 10px;
+    font-size: 1.5rem;
+}
+
+.time {
+    flex: 1;
+    color: thistle;
+    margin: auto;
+    font-size: 0.8rem;
+    text-align: right;
+}
+
+.second-text {
+    margin-top: 5px;
+    margin-left: 10px;
+    max-width: 80%;
+}

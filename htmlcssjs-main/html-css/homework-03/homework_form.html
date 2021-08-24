@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang = "us">
+<head>
+    <meta chatset="UTF-8">
+    <title>Gopal - This is for forms</title>
+    <link rel="stylesheet" href="homework_form.css">
+</head>
+<body>
+    <form action="https://www.google.com" method="GET">
+        <div class="credentials">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter email id here">
+        </div>
+        <div class="credentials">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password">
+        </div>
+        <div class="credentials">
+            <label for="description">About Me</label>
+            <textarea id="description" name="description" rows="3" cols="50"></textarea>
+        </div>
+        <div class="credentials">
+           <button type="submit" id="submit" value="Submit">Submit Details</button>
+        </div>
+    </form>
+    <br>
+    <form>
+        <p>
+            <label id="header">Select fruits you like</label>
+        </p>
+        <p>
+            <label for="apples">Apples</label>
+            <input type="checkbox" id="apple" value="apple">
+        </p>
+        <p>
+            <label for="oranges">Oranges</label>
+            <input type="checkbox" id="orange" value="orange">
+        </p>
+        <p>
+            <label for="grapes">Grapes</label>
+            <input type="checkbox" id="grapes" value="grapes">
+        </p>
+        <p>
+            <label for="mangoes">Mangoes</label>
+            <input type="checkbox" id="mangoes" value="mangoes">
+        </p>
+
+    </form>
+    <form>
+        <div class="gender">
+            <label>Select you gender</label>
+        </div>
+        <div class="gender">
+            <input type="radio" id="male" value="male">
+            <label for="male">Male</label>
+        </div>
+        <div class="gender">
+            <input type="radio" id="female" value="male">
+            <label for="female">Female</label>
+        </div>
+        <div class="gender">
+            <input type="radio" id="others" value="others">
+            <label for="others">Others</label>
+        </div>
+    </form>
+    <form>
+        <label for="fruits">Select the fruit you like: </label>
+        <select id="fruits">
+            <option id="apples" value="AP">Apples</option>
+            <option id="oranges" value="OR">Oranges</option>
+            <option id="grapes" value="GR" selected>Grapes</option>
+            <option id="mangoes" value="MN">Mangoes</option>
+        </select>
+    </form>
+
+</body>
+
+
+</html>
